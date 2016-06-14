@@ -1,0 +1,8 @@
+{
+  "name": "express-template7",
+  "version": "0.0.1",
+  "dependencies": {
+    "glob": "^7.0.3",
+    "graceful-fs": "^4.1.4"
+  }
+}
