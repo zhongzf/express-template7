@@ -1,1 +1,17 @@
 <h1>Example App: {{title}}</h1>
+<div>
+ {{> nav}}
+</div>
+{{#if title}}
+<p>I have title</p>
+{{else}}
+<p>I don't have title</p>
+{{/if}}              
+<ul>
+  {{#each people}}
+  <li>
+      <span>{{firstName}} {{lastName}}</span>
+      <img src={{image}} />
+  </li>
+  {{/each}}    
+</ul>   

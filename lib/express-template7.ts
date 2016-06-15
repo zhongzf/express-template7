@@ -53,7 +53,8 @@ export class ExpressTemplate7 {
                         filePath: filePath,
                         helpers: helpers,
                         partials: partials,
-                    })
+                    }),
+                    Template7: template7.Template7
                 });
 
                 return template(model);
